@@ -4,7 +4,7 @@ import axios from "axios";
 import {FaTrashRestore} from 'react-icons/fa';
 
 function DeletedToDo() {
-  //deleted users state
+  //deleted tasks state
   let [deletedTasks, setDeletedTasks] = useState([]);
   //error state
   let [err, setError] = useState("");
