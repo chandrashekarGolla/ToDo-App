@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap');
+
+.removedTasks {
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.removedTasks p{
+    text-transform: capitalize;
+    font-weight: bold ;
+    
+}
+.removedTasks .empty{
+    margin-top: 30px;
+    color: tomato;
+    font-size: large;
+
+}
+.removedTasks #heading{
+    text-align: center;
+    font-size: large;
+    margin-top: 10px;
+    padding: 5px;
+
+}
+.removed-Taskslist {
+    padding:10px;
+}
+
+.removed-Taskslist li {
+
+    max-width:600px;
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-size: auto;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 7px grey;
+}
+
+.removed-taskname {
+    color: black;
+    text-transform: capitalize;
+    font-size:1 rem;
+    padding:3px;
+}
+
+
+.task-restore-button {
+    background-color:#282a35;
+    border: none;
+    padding:7px;
+    margin: 3px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#button1{
+    color:whitesmoke;
+}
+
+#button2{
+    background-color: goldenrod;
+    color:red;
+}

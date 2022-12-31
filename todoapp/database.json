@@ -1,0 +1,38 @@
+{
+  "todos": [
+    {
+      "taskname": "writing",
+      "starttime": "04:12",
+      "endtime": "06:07",
+      "category": "personal",
+      "status": "completed",
+      "id": 98
+    },
+    {
+      "taskname": "study",
+      "starttime": "05:06",
+      "endtime": "06:00",
+      "category": "personal",
+      "status": "not done",
+      "id": 27
+    },
+    {
+      "taskname": "playing",
+      "starttime": "06:00",
+      "endtime": "07:00",
+      "category": "personal",
+      "status": "Later...",
+      "id": 41
+    }
+  ],
+  "deletedTodos": [
+    {
+      "taskname": "office Meeting",
+      "starttime": "09:00",
+      "endtime": "12:00",
+      "category": "office",
+      "status": "completed",
+      "id": 70
+    }
+  ]
+}

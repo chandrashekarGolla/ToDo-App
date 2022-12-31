@@ -1,0 +1,86 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Titillium Web", sans-serif;
+}
+
+.Navbar img{
+	position: relative;
+	width:50px;
+}
+.Navbar {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	height:50px;
+	padding: 0 2rem;
+	background-color:#282a35;
+}
+
+nav a {
+	margin: 0 1rem;
+	color:white;
+	text-decoration: none;
+    padding: 5px;
+	font-weight: 600;
+}
+
+nav a:hover {
+	color: #76D7C4;
+}
+
+.Navbar .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #eee;
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+}
+
+.Navbar div,
+nav {
+	display: flex;
+	align-items: flex-end;
+}
+
+@media only screen and (max-width: 1024px) {
+	.Navbar .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.Navbar nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		height:50%;
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		align-items:flex-start;
+		justify-content: center;
+		gap: 1 rem;
+	    background-color:#282a35;
+		transition: 1s;
+		transform: translateY(-100vh);
+	}
+
+	.Navbar  .navbar{
+		transform: none;
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.5rem;
+	}
+}

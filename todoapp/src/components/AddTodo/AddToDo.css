@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Lato&family=Roboto:wght@300;900&display=swap'); 
+form .tasktime{
+    margin:5px;
+    padding: 2px;
+}
+form .form-box p{
+    color: #f70f0f;
+    font-family: 'Gentium Book Plus', serif;
+}
+
+.taskbox h2{
+    text-align: center;
+    font-weight: 100;
+    text-transform: capitalize;
+    margin-top:20px;
+    padding: 10px;
+}
+ .taskbox .form-box{
+    padding:5px;
+}
+
+form #taskname ,#category,#status{
+    border: 5px 5px solid black;
+    box-shadow: 5px 5px 5px grey; 
+}
+form .tasktime{ 
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px grey;
+}
+form label{
+    font-weight:600;
+}
+
+form .add-task-button{
+    border: 1px 1px solid #282a35;
+    box-shadow: 5px 5px 5px grey;
+    display: block;
+    margin: auto;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    padding: 3px;
+    border-radius:5px;
+    background-color: #282a35;
+    color: whitesmoke;
+    font-weight: bold;
+    width:70px;
+}

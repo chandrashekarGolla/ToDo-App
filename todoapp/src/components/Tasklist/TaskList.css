@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Lato&family=Roboto:wght@300;900&display=swap'); 
+.container .card{
+    justify-content: space-around;
+    align-content: space-around;
+    box-shadow: 5px 5px 5px grey;
+    margin-top: 5px;
+    margin:7px;
+    margin-left:60px;
+}
+
+.container span{
+    font-family: 'Gentium Book Plus', serif;
+    font-weight:600;
+}
+.tasklist h2{
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;   
+}
+
+.tasklist .card .button{
+     height: 35px;
+     padding: 5px;
+     align-items: center;
+}
+
+.tasklist .clear-button{
+    display: block;
+    margin: auto;
+}
+
+.tasklist h1{
+    color: #f70000;
+    text-align: center;
+    margin-top: 50px;
+
+}

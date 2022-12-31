@@ -1,0 +1,8 @@
+.App{
+    
+    background-size: cover;
+    min-height: 100vh;
+    background-image: url(".//components/Images/background1.jpeg");
+    background-position: fixed;
+
+}
